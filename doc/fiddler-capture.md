@@ -2,7 +2,7 @@
 
 ## 抓包原理
 fiddler实现抓包是以fiddler作为中间代理,任何网络请求都会经过代理服务器的解析。不过由于https加密的特殊性，需要对进行额外的配置，才能愉快的使用fiddler来抓取https协议请求。
-<img src="../assets/fiddler_process.png" width=400  />
+<img src="../assets/fiddler_process.png" width=700  />
 
 ## 步入正题
 ### 手机设置wifi代理
