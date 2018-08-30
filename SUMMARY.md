@@ -8,3 +8,4 @@
 * backend
     * [\[指南\]centos](./doc/backend/manual/centos.md)
     * [\[记录\]jenkins登录后空白页面](./doc/backend/record/jenkinsEmptyPage.md)
+    * [\[记录\]git的crential问题](./doc/backend/record/gitCredentialManager.md)
