@@ -11,7 +11,8 @@
 - `yum install -y [compname]` 自动安装插件 -y 表示自动选择并安装
 - `echo $PATH` 查看当前的环境变量
 - `export PATH=[pathname]:$PATH` 修改当前的环境变量
-- `ps a` 查看当前所有进程
+- `ps a` 查看当前终端机所有进程
+- `ps -A` 查看所有进程
 - `jobs -l` 查看后台进程, -l 表示显示 PID
 - `kill [PID]` 杀进程
 - `[commond] &` 后台运行进程,关闭 shell 后进程终止
@@ -25,6 +26,7 @@
   - **-v**：显示所有过程
 - `mv [filename] [filename]` 重命名或移动文件
 - `du -h` 查看文件大小, **-sh**就是查看目录大小
+- `netstat -lnp|grep [port]` 查看端口号信息
 
 ## 技巧
 
