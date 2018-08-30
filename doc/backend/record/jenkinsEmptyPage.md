@@ -1,4 +1,4 @@
-# [记录]jenkins登录后一片空白
+# jenkins登录后一片空白
 
 找到.jenkins/hudson.model.UpdateCenter.xml文件vi打开
 
