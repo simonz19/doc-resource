@@ -5,7 +5,7 @@
 `git config --global credential.helper cache`
 <br/>
 
-有木有很熟悉，这是配置证书持久化缓存的，但是这个东东不适用于 windows，git for windows 默认集成了**credential mananger**来管理证书，在你第一次登录并且push后该证书管理工具会在github上创建一个access token，后面会通过这个token来进行身份验证，所以 for windows，只要去掉这个全局配置即可。<br/>
+有木有很熟悉，这是配置证书持久化缓存的，但是这个东东不适用于 windows，git for windows 默认集成了**credential mananger**来管理证书，在你第一次登录并且push后该证书管理工具会创建一个github的access token，后面会通过这个token来进行身份验证，所以 for windows，只要去掉这个全局配置即可。<br/>
 
 `git config --global --unset credential.helper`
 
