@@ -8,5 +8,6 @@
 * backend
     * [\[指南\]centos](./doc/backend/manual/centos.md)
     * [\[指南\]名词解析](./doc/backend/manual/nameMean.md)
+    * [\[指南\]测试环境分类总结](./doc/backend/manual/testEnv.md)
     * [\[记录\]jenkins登录后空白页面](./doc/backend/record/jenkinsEmptyPage.md)
     * [\[记录\]git的crential问题](./doc/backend/record/gitCredentialManager.md)

@@ -28,6 +28,7 @@
 - `du -h` 查看文件大小, `-sh`就是查看目录大小
 - `netstat -lnp|grep [port]` 查看端口号信息
 - `cp -r [filename] [filename]` 复制文件 `-r`表示递归方式复制文件
+- `echo 1 > /proc/sys/vm/drop_caches` 清理内存
 
 ## 技巧
 
@@ -50,3 +51,5 @@ vi是linux系统一个强大的编辑器,通过命令`vi [filename]`来编辑文
 > - `:w` 保存但不退出vi
 > - `:wq` 保存并退出vi
 > - `:q` 不保存文件并退出vi
+> - `/[word]` 查找单词, `n` 下一个 `N`上一个
+> - `?[word]` 自上而下查找单词, `n` 下一个 `N`上一个
