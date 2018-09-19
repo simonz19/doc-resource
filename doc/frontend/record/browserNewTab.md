@@ -12,7 +12,8 @@
 
 表单提交方式：
 
-```var form = document.createElement('form');
+```
+var form = document.createElement('form');
 form.action = 'www.baidu.com';
 form.target = '\_blank';
 form.method = 'POST';
