@@ -29,6 +29,8 @@
 - `netstat -lnp|grep [port]` 查看端口号信息
 - `cp -r [filename] [filename]` 复制文件 `-r`表示递归方式复制文件
 - `echo 1 > /proc/sys/vm/drop_caches` 清理内存
+- `mkdir` 创建目录
+- `touch` 创建文件
 
 ## 技巧
 
