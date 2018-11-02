@@ -13,3 +13,4 @@
 | React.PureComponent | 渲染性能优化                               |
 | react-boilerplate   | react模板                                  |
 | GraphQL             | 后端返回的数据结构 => 适用于前端的数据结构 |
+| memoize-one         | 闭包缓存数据，优化渲染性能                 |
