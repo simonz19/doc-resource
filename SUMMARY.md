@@ -19,3 +19,6 @@
   - [\[记录\]jenkins 登录后空白页面](./doc/backend/record/jenkinsEmptyPage.md)
   - [\[记录\]git 的 crential 问题](./doc/backend/record/gitCredentialManager.md)
   - [\[记录\]前端渲染 vs 后端渲染](./doc/backend/record/front-back-render.md)
+  - [\[记录\]babel插件](./doc/backend/record/babelplugins.md)
+  - [\[记录\]node中的require](./doc/backend/record/requirejsInNode.md)
+  - [\[记录\]有用的npm库](./doc/backend/record/usefullNpmPkg.md)

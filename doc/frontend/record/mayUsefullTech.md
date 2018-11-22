@@ -18,6 +18,5 @@
 
 google 出品,必属精品. 可以在一定范围内使用数据库,静态网站托管,云函数,资源存储等等 google 提供的功能.
 
-## [faye-websocket](https://www.npmjs.com/package/faye-websocket)
-
-node 服务 websocket
+## [heroku](https://www.heroku.com/)
+一个免费的服务器托管,类似于firebase
