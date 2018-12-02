@@ -26,6 +26,7 @@
   - **-v**：显示所有过程
 - `mv [filename] [filename]` 重命名或移动文件
 - `du -h` 查看文件大小, `-sh`就是查看目录大小
+- `netstat -ntlp` 查看端口占用情况
 - `netstat -lnp|grep [port]` 查看端口号信息
 - `cp -r [filename] [filename]` 复制文件 `-r`表示递归方式复制文件
 - `echo 1 > /proc/sys/vm/drop_caches` 清理内存
