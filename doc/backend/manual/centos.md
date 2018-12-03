@@ -48,11 +48,34 @@ wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-
 
 设置完环境变量不会立马生效,需重启或者执行`source /etc/profile`脚本
 
-**vi编辑器**<br/>
-vi是linux系统一个强大的编辑器,通过命令`vi [filename]`来编辑文件。打开后默认是commond mode,输入`i`切换到insert mode,才能进行编辑操作。编辑完后，`Esc`键退出insert mode,键入`:wq`保存并退出。
-> 常用保存命令: 
-> - `:w` 保存但不退出vi
-> - `:wq` 保存并退出vi
-> - `:q` 不保存文件并退出vi
+**vi 编辑器**<br/>
+vi 是 linux 系统一个强大的编辑器,通过命令`vi [filename]`来编辑文件。打开后默认是 commond mode,输入`i`切换到 insert mode,才能进行编辑操作。编辑完后，`Esc`键退出 insert mode,键入`:wq`保存并退出。
+
+> 常用保存命令:
+>
+> - `:w` 保存但不退出 vi
+> - `:wq` 保存并退出 vi
+> - `:q` 不保存文件并退出 vi
 > - `/[word]` 查找单词, `n` 下一个 `N`上一个
 > - `?[word]` 自上而下查找单词, `n` 下一个 `N`上一个
+
+**echo**<br/>
+echo 的作用其实很简单，就是打印字符串到输出文件流。
+
+重定向:
+
+- `>` 操作符输出重定向, 先清空再追加内容
+- `>>` 操作符输出追加重定向, 直接追加内容
+
+```bash
+echo a > test.txt
+cat test.txt
+// a
+echo b > test.txt
+cat test.txt
+// b
+echo c >> test.txt
+cat test.txt
+// b
+// c
+```

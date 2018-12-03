@@ -16,6 +16,8 @@
   - [\[指南\]测试环境分类总结](./doc/backend/manual/testEnv.md)
   - [\[指南\]firebase](./doc/backend/manual/firebase.md)
   - [\[指南\]proxifier](./doc/backend/manual/proxifier.md)
+  - [\[指南\]docker](./doc/backend/manual/docker.md)
+  - [\[指南\]jenkins](./doc/backend/manual/jenkins.md)
   - [\[记录\]jenkins 登录后空白页面](./doc/backend/record/jenkinsEmptyPage.md)
   - [\[记录\]git 的 crential 问题](./doc/backend/record/gitCredentialManager.md)
   - [\[记录\]前端渲染 vs 后端渲染](./doc/backend/record/front-back-render.md)
