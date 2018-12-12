@@ -5,17 +5,24 @@ run# docker
 - `docker info`: list infos
 - `docker image ls`: list all images
 - `docker image ls -a | grep <image name>`: check image info by its name.
-- `docker container ls`: list all containers
+- `docker container ls`: list all running containers
+- `docker container ls -a`: list all containers, even those not running
 - `docker container ls -a | grep <container name>`: check container info by its name.
-- `docker ps -a`: list all containers
+- `docker ps -a`: List all containers, even those not running
 - `docker stop <container id>`: stop a container
 - `docker start <container id>`: start a container
 - `docker restart <container id>`: restart a container
 - `docker rm <container id>`: remove a container
 - `docker rmi <image id>`: remove an image
 - `docker build -t <file name> [-f <docker file dir>] <build context>`: build your own docker image, **docker file dir** is assumed to be located in **build context** if you do not indicate where it is.
-- `docker run [-d] [-p <local port>:<container port>] <name>[:<version>]`: run an image, **-d** means running in bg
+- `docker run [-i] [-t] [-d] [-p <local port>:<container port>] <name>[:<version>]`: run an image, **-d** means running in bg. **-i** means Keep STDIN open even if not attached. **-t** means Allocate a pseudo-TTY
 - `docker logs <container id>`: check logs those had been logged within container.
+- `docker commit -m "commit message" -a "MAINTAINER" <container id> <image name>[:<image id>]`: build an image from container.
+- `docker-machine stop default`: stop the default docker virture machine.
+- `docker cp <container id>:<path> <target path>`: copy a file from container out to target path
+- `docker exec -it <container id> /bin/bash`: use `exec` to enter a container instead of `attach` whitch is already deprecated.
+
+> Single character command line options can be combined, so rather than typing `docker run -i -t --name test busybox sh`, you can write `docker run -it --name test busybox sh`
 
 ## Dockerfile
 
@@ -100,3 +107,9 @@ ENTRYPOINT command param1 param2 (shell form)
 Command line arguments to `docker run <image>`will be appended after all elements in an **exec form** **ENTRYPOINT**, and will override all elements specified using **CMD**. This allows arguments to be passed to the entry point, i.e., `docker run <image> -d` will pass the `-d` argument to the entry point. You can override the **ENTRYPOINT** instruction using the `docker run --entrypoint` flag.
 
 The shell form prevents any **CMD** or **run** command line arguments from being used, but has the disadvantage that your **ENTRYPOINT** will be started as a subcommand of /bin/sh -c, which does not pass signals. This means that the executable will not be the container’s PID 1 - and will not receive Unix signals - so your executable will not receive a SIGTERM from `docker stop <container>`.
+
+## how to rm all useless images and containers
+
+1. docker ps -a | grep "Exited" | awk '{print \$1 }'|xargs docker stop
+2. docker ps -a | grep "Exited" | awk '{print\$1 }'|xargs docker rm
+3. docker images|grep none|awk '{print \$3 }'|xargs docker rmi
