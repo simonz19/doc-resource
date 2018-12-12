@@ -110,6 +110,6 @@ The shell form prevents any **CMD** or **run** command line arguments from being
 
 ## how to rm all useless images and containers
 
-1. docker ps -a | grep "Exited" | awk '{print \$1 }'|xargs docker stop
-2. docker ps -a | grep "Exited" | awk '{print\$1 }'|xargs docker rm
-3. docker images|grep none|awk '{print \$3 }'|xargs docker rmi
+1. docker ps -a | grep "Exited" | awk '{print $1 }'|xargs docker stop
+2. docker ps -a | grep "Exited" | awk '{print $1 }'|xargs docker rm
+3. docker images|grep none|awk '{print $3 }'|xargs docker rmi
