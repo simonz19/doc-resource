@@ -25,6 +25,7 @@
   - [\[记录\]node 中的 require](./doc/backend/record/requirejsInNode.md)
   - [\[记录\]有用的 npm 库](./doc/backend/record/usefullNpmPkg.md)
   - [\[记录\]git 换行符](./doc/backend/record/gitLineEnding.md)
+  - [\[记录\]refuseConnectToCentos](./doc/backend/record/refuseConnectToCentos.md)
 - android
   - [\[指南\]gradle](./doc/android/manual/gradle.md)
   - [\[记录\]dockerfyAndoirdBuild](./doc/android/record/dockerfyAndoirdBuild.md)

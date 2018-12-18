@@ -32,13 +32,18 @@
 - `echo 1 > /proc/sys/vm/drop_caches` 清理内存
 - `mkdir` 创建目录
 - `touch` 创建文件
+- `serivce <service name> start|restart|stop` 开启某个 service 服务,例如:service network restart
+- `source /etc/profile` profile 配置生效
+- `ip addr` 显示当前 ip
 
 ## 技巧
 
-**用 wget 下载 jdk:**<br/>
+### 用 wget 下载 jdk:
+
 wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" [link]
 
-**设置环境变量**<br/>
+### 设置环境变量
+
 设置环境变量可以通过修改/etc/profile 文件和/etc/profile.d 下面的文件来实现。
 
 > profile(文件)和 profile.d(目录)的区别:
@@ -48,7 +53,8 @@ wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-
 
 设置完环境变量不会立马生效,需重启或者执行`source /etc/profile`脚本
 
-**vi 编辑器**<br/>
+### vi 编辑器
+
 vi 是 linux 系统一个强大的编辑器,通过命令`vi [filename]`来编辑文件。打开后默认是 commond mode,输入`i`切换到 insert mode,才能进行编辑操作。编辑完后，`Esc`键退出 insert mode,键入`:wq`保存并退出。
 
 > 常用保存命令:
@@ -59,7 +65,8 @@ vi 是 linux 系统一个强大的编辑器,通过命令`vi [filename]`来编辑
 > - `/[word]` 查找单词, `n` 下一个 `N`上一个
 > - `?[word]` 自上而下查找单词, `n` 下一个 `N`上一个
 
-**echo**<br/>
+### echo
+
 echo 的作用其实很简单，就是打印字符串到输出文件流。
 
 重定向:
@@ -79,3 +86,11 @@ cat test.txt
 // b
 // c
 ```
+
+### ssh 连接 centos
+
+1. `chkconfig sshd on` 设置 sshd 为开机启动
+2. `chkconfig --list |grep sshd` 查看设置结果
+3. `service sshd start` 启动 sshd
+4. `ip addr` 查看当前主机 ip
+5. shell 终端根据查询的 ip 进行链接,端口默认`22`
