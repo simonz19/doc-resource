@@ -30,3 +30,4 @@
   - [\[指南\]gradle](./doc/android/manual/gradle.md)
   - [\[记录\]dockerfyAndoirdBuild](./doc/android/record/dockerfyAndoirdBuild.md)
   - [\[记录\]gradlewNoSuchFile](./doc/android/record/gradlewNoSuchFile.md)
+  - [\[记录\]permissionDeniedForGradlew](./doc/android/record/permissionDeniedForGradlew.md)
