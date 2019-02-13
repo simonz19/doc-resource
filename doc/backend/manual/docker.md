@@ -15,7 +15,7 @@ run# docker
 - `docker rm <container id>`: remove a container
 - `docker rmi <image id>`: remove an image
 - `docker build -t <file name> [-f <docker file dir>] <build context>`: build your own docker image, **docker file dir** is assumed to be located in **build context** if you do not indicate where it is.
-- `docker run [-i] [-t] [-d] [-p <local port>:<container port>] <name>[:<version>]`: run an image, **-d** means running in bg. **-i** means Keep STDIN open even if not attached. **-t** means Allocate a pseudo-TTY
+- `docker run [-i] [-t] [-d] [-v <localdir:containerdir>] [-p <local port>:<container port>] <name>[:<version>]`: run an image, **-d** means running in bg. **-i** means Keep STDIN open even if not attached. **-t** means Allocate a pseudo-TTY
 - `docker logs <container id>`: check logs those had been logged within container.
 - `docker commit -m "commit message" -a "MAINTAINER" <container id> <image name>[:<image id>]`: build an image from container.
 - `docker-machine stop default`: stop the default docker virture machine.

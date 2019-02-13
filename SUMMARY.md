@@ -11,6 +11,7 @@
   - [\[记录\]前端 UI 框架介绍](./doc/frontend/record/UIFrameWork.md)
   - [\[记录\]也许有用的技术](./doc/frontend/record/mayUsefullTech.md)
   - [\[记录\]babel 插件](./doc/frontend/record/babelplugins.md)
+  - [\[记录\]预请求](./doc/frontend/record/optionsRequest.md)
 - backend
   - [\[指南\]centos](./doc/backend/manual/centos.md)
   - [\[指南\]名词解析](./doc/backend/manual/nameMean.md)

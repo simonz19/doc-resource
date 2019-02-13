@@ -39,3 +39,7 @@ A Babel preset that compiles ES2015+ down to ES5 by automatically determining th
 ## [babel-preset-react](https://www.npmjs.com/package/babel-preset-react)
 
 Babel preset for all React plugins.
+
+## [@babel/plugin-proposal-decorators](https://babeljs.io/docs/en/babel-plugin-proposal-decorators)
+
+annotation

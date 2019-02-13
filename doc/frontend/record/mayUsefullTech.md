@@ -19,4 +19,17 @@
 google 出品,必属精品. 可以在一定范围内使用数据库,静态网站托管,云函数,资源存储等等 google 提供的功能.
 
 ## [heroku](https://www.heroku.com/)
-一个免费的服务器托管,类似于firebase
+
+一个免费的服务器托管,类似于 firebase
+
+## [mobx](https://www.npmjs.com/package/mobx)
+
+替代 redux 的流行状态管理器
+
+## [phantomjs](https://github.com/ariya/phantomjs)
+
+headless browser
+
+## [puppeteer](https://github.com/GoogleChrome/puppeteer)
+
+Headless Chrome Node API
