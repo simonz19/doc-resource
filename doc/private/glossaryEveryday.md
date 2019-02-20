@@ -6,7 +6,6 @@
 
 - constraint
 - restrict
-- proposal
 - archive
 - glossary
 - volatile
@@ -16,9 +15,19 @@
 - intention
 - intentional
 
-## 2018-01-31
+## 2019-01-31
 
+- proposal
 - leak
 - stack
 - heap
 - scope
+
+## 2019-02-17
+
+- wandering
+- artifact
+
+## 2019-02-19
+
+- concretely

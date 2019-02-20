@@ -41,3 +41,11 @@
 - we have nothing in common
 - here is the thing
 - the thing is
+
+## 2019-02-16
+
+- be there or be squre
+- how is it going
+- long time no see
+- how you get any work done is beyond me
+- would you let it go
