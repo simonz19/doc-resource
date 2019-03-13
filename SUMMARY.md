@@ -1,41 +1,44 @@
 # Summary
 
 - [Introduction](README.md)
-- doc/android/manual
-  - [gradle](doc/android/manual/gradle.md)
-- doc/android/record
-  - [dockerfyAndoirdBuild](doc/android/record/dockerfyAndoirdBuild.md)
-  - [gradlewNoSuchFile](doc/android/record/gradlewNoSuchFile.md)
-  - [permissionDeniedForGradlew](doc/android/record/permissionDeniedForGradlew.md)
-- doc/backend/manual
-  - [centos](doc/backend/manual/centos.md)
-  - [docker](doc/backend/manual/docker.md)
-  - [firebase](doc/backend/manual/firebase.md)
-  - [jenkins](doc/backend/manual/jenkins.md)
-  - [nameMean](doc/backend/manual/nameMean.md)
-  - [proxifier](doc/backend/manual/proxifier.md)
-  - [testEnv](doc/backend/manual/testEnv.md)
-  - [vps](doc/backend/manual/vps.md)
-- doc/backend/record
-  - [front-back-render](doc/backend/record/front-back-render.md)
-  - [gitCredentialManager](doc/backend/record/gitCredentialManager.md)
-  - [gitLineEnding](doc/backend/record/gitLineEnding.md)
-  - [jenkinsEmptyPage](doc/backend/record/jenkinsEmptyPage.md)
-  - [refuseConnectToCentos](doc/backend/record/refuseConnectToCentos.md)
-  - [requirejsInNode](doc/backend/record/requirejsInNode.md)
-  - [usefullNpmPkg](doc/backend/record/usefullNpmPkg.md)
-- doc/frontend/manual
-  - [fiddler-capture](doc/frontend/manual/fiddler-capture.md)
-  - [miniProgram](doc/frontend/manual/miniProgram.md)
-  - [nextjs](doc/frontend/manual/nextjs.md)
-  - [reactStudyFlow](doc/frontend/manual/reactStudyFlow.md)
-- doc/frontend/record
-  - [babelplugins](doc/frontend/record/babelplugins.md)
-  - [browserNewTab](doc/frontend/record/browserNewTab.md)
-  - [mayUsefullTech](doc/frontend/record/mayUsefullTech.md)
-  - [newProjectTodo](doc/frontend/record/newProjectTodo.md)
-  - [optionsRequest](doc/frontend/record/optionsRequest.md)
-  - [UIFrameWork](doc/frontend/record/UIFrameWork.md)
-- doc/frontend/sourcefile-reading
-  - [redux](doc/frontend/sourcefile-reading/redux.md)
-  - [roadhog](doc/frontend/sourcefile-reading/roadhog.md)
+- android
+  - manual
+    - [gradle.md](doc/android/manual/gradle.md)
+  - record
+    - [dockerfyAndoirdBuild.md](doc/android/record/dockerfyAndoirdBuild.md)
+    - [gradlewNoSuchFile.md](doc/android/record/gradlewNoSuchFile.md)
+    - [permissionDeniedForGradlew.md](doc/android/record/permissionDeniedForGradlew.md)
+- backend
+  - manual
+    - [centos.md](doc/backend/manual/centos.md)
+    - [docker.md](doc/backend/manual/docker.md)
+    - [firebase.md](doc/backend/manual/firebase.md)
+    - [jenkins.md](doc/backend/manual/jenkins.md)
+    - [nameMean.md](doc/backend/manual/nameMean.md)
+    - [proxifier.md](doc/backend/manual/proxifier.md)
+    - [testEnv.md](doc/backend/manual/testEnv.md)
+    - [vps.md](doc/backend/manual/vps.md)
+  - record
+    - [gitCredentialManager.md](doc/backend/record/gitCredentialManager.md)
+    - [front-back-render.md](doc/backend/record/front-back-render.md)
+    - [gitLineEnding.md](doc/backend/record/gitLineEnding.md)
+    - [jenkinsEmptyPage.md](doc/backend/record/jenkinsEmptyPage.md)
+    - [refuseConnectToCentos.md](doc/backend/record/refuseConnectToCentos.md)
+    - [requirejsInNode.md](doc/backend/record/requirejsInNode.md)
+    - [usefullNpmPkg.md](doc/backend/record/usefullNpmPkg.md)
+- frontend
+  - manual
+    - [fiddler-capture.md](doc/frontend/manual/fiddler-capture.md)
+    - [miniProgram.md](doc/frontend/manual/miniProgram.md)
+    - [nextjs.md](doc/frontend/manual/nextjs.md)
+    - [reactStudyFlow.md](doc/frontend/manual/reactStudyFlow.md)
+  - record
+    - [babelplugins.md](doc/frontend/record/babelplugins.md)
+    - [browserNewTab.md](doc/frontend/record/browserNewTab.md)
+    - [mayUsefullTech.md](doc/frontend/record/mayUsefullTech.md)
+    - [newProjectTodo.md](doc/frontend/record/newProjectTodo.md)
+    - [optionsRequest.md](doc/frontend/record/optionsRequest.md)
+    - [UIFrameWork.md](doc/frontend/record/UIFrameWork.md)
+  - sourcefile-reading
+    - [redux.md](doc/frontend/sourcefile-reading/redux.md)
+    - [roadhog.md](doc/frontend/sourcefile-reading/roadhog.md)

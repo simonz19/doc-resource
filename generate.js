@@ -1,39 +1,83 @@
 const recursive = require("recursive-readdir");
-const prettier = require("prettier");
 const { join } = require("path");
-const fs = require("fs");
+const { writeFile, statSync } = require("fs");
 
 const srcRootName = "doc";
 
-recursive(join(__dirname, srcRootName), function(err, files) {
-  const fileTreeFlat = {};
+const flatFiles = files => {
+  const flat = [];
   files.forEach(file => {
     file = file.replace(/\\/g, "/");
     let fileArr = file.split("/");
+    // filter private file
     if (fileArr.every(fileLeaf => fileLeaf !== "private")) {
       fileArr = fileArr.slice(fileArr.indexOf(srcRootName));
-      const lastIndex = fileArr.length - 1;
-      const categoryName = fileArr.slice(0, lastIndex).join("/");
-      if (!fileTreeFlat[categoryName]) {
-        fileTreeFlat[categoryName] = [];
-      }
-      fileTreeFlat[categoryName].push(fileArr[lastIndex]);
+      // flat dir
+      fileArr.reduce((prev, cur, index) => {
+        const total = prev + `${index !== 0 ? "/" : ""}${cur}`;
+        if (!flat.some(leaf => leaf.id === total)) {
+          flat.push({
+            id: total,
+            pid: prev,
+            name: cur
+          });
+        }
+        return total;
+      }, "");
     }
   });
-  console.log('fileTreeFlat', fileTreeFlat);
-  let fileText = "# Summary\n\n";
-  fileText += "- [Introduction](README.md)\n";
+  return flat;
+};
 
-  for (const key in fileTreeFlat) {
-    if (fileTreeFlat.hasOwnProperty(key)) {
-      fileText += `- ${key}\n`;
-      fileTreeFlat[key].forEach(file => {
-        fileText += `  - [${file.split(".")[0]}](${key}/${file})\n`;
+const flat2Tree = flat => {
+  const result = [];
+  const hash = {};
+  flat.forEach(item => {
+    hash[item.id] = item;
+  });
+
+  flat.forEach(item => {
+    const hashVP = hash[item.pid];
+    if (hashVP) {
+      if (!hashVP.children) {
+        hashVP.children = [];
+      }
+      hashVP.children.push(item);
+    } else {
+      result.push(item);
+    }
+  });
+  return result;
+};
+
+const render = tree => {
+  let text = "# Summary\n\n";
+  text += "- [Introduction](README.md)\n";
+  const renderText = (item, level = 0) => {
+    const prefix = new Array(level).fill("  ").join("");
+    const isFile = statSync(join(__dirname, item.id)).isFile();
+    text +=
+      `${prefix}- ` +
+      (isFile ? `[${item.name}](${item.id})` : item.name) +
+      "\n";
+    if (item.children && item.children.length > 0) {
+      item.children.forEach(child => {
+        renderText(child, level + 1);
       });
     }
-  }
+  };
+  tree[0].children.forEach(item => {
+    renderText(item);
+  });
+  return text;
+};
 
-  fs.writeFile(join(__dirname, "./SUMMARY.md"), fileText, err => {
+recursive(join(__dirname, srcRootName), function(err, files) {
+  const flat = flatFiles(files);
+  const tree = flat2Tree(flat);
+  const text = render(tree);
+
+  writeFile(join(__dirname, "./SUMMARY.md"), text, err => {
     if (err) throw err;
     console.log("generate success");
   });
