@@ -36,6 +36,7 @@
 - `source /etc/profile` profile 配置生效
 - `ip addr` 显示当前 ip
 - `chmod +x <shell name>` 加入写权限
+- `sudo su -` get root permission
 
 ## 技巧
 
@@ -67,6 +68,10 @@ vi 是 linux 系统一个强大的编辑器,通过命令`vi [filename]`来编辑
 > - `?[word]` 自上而下查找单词, `n` 下一个 `N`上一个
 > - `:set fileformat?` 查询文件格式
 > - `:set fileformat=unix` 设置文件格式为unix
+> - `x` delete
+> - `dd` delete the whole line
+> - `i` insert to the right
+> - `a` insert to the left
 
 ### echo
 

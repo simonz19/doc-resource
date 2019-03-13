@@ -33,3 +33,7 @@ headless browser
 ## [puppeteer](https://github.com/GoogleChrome/puppeteer)
 
 Headless Chrome Node API
+
+## [deno](https://github.com/denoland/deno)
+
+A secure JavaScript/TypeScript runtime built with V8, Rust, and Tokio. aim to replace nodejs.

@@ -78,3 +78,11 @@ The UNIX command `rm -rf` for node.
 ## [glob](https://www.npmjs.com/package/glob)
 
 Match files using the patterns the shell uses, like stars and stuff.
+
+## [inquirer](https://www.npmjs.com/package/inquirer)
+
+A collection of common interactive command line user interfaces.
+
+## [winston](https://www.npmjs.com/package/winston)
+
+A logger for just about everything.

@@ -49,3 +49,18 @@
 - long time no see
 - how you get any work done is beyond me
 - would you let it go
+
+## 2019-03-07
+
+- save up money
+- I would not be able to do it
+- why is that
+- is there a certain price you will sale for
+- I am willing to do that
+- do you have a moment
+
+## 2019-03-08
+
+- who is being loud
+- spend the night
+- it is your shot
