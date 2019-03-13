@@ -20,7 +20,7 @@ recursive(join(__dirname, srcRootName), function(err, files) {
       fileTreeFlat[categoryName].push(fileArr[lastIndex]);
     }
   });
-
+  console.log('fileTreeFlat', fileTreeFlat);
   let fileText = "# Summary\n\n";
   fileText += "- [Introduction](README.md)\n";
 

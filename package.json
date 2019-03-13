@@ -2,7 +2,7 @@
   "name": "doc-resource",
   "version": "1.0.0",
   "scripts": {
-    "gen-sum": "node generate"
+    "gen": "node generate"
   },
   "author": "zxy",
   "private": true,
