@@ -1,9 +1,6 @@
 # word everyday
 
 - statement
-
-  that file is very much not a CommonJS file if it contains any export/import statements
-
 - constraint
 - restrict
 - archive
@@ -47,7 +44,9 @@
 
 - scenario
 - gota => got to
+- goda => go to
 - gonna => going to
+- tryna => trying to
 - wanna => want to
 - shoulda => should have
 - coulda => could have
@@ -63,3 +62,12 @@
 - truncate
 - advanced
 - senior
+
+## 2018-03-14
+
+- shallow
+- investigation
+
+## 2018-03-18
+
+- exhausted

@@ -19,8 +19,8 @@
     - [testEnv.md](doc/backend/manual/testEnv.md)
     - [vps.md](doc/backend/manual/vps.md)
   - record
-    - [gitCredentialManager.md](doc/backend/record/gitCredentialManager.md)
     - [front-back-render.md](doc/backend/record/front-back-render.md)
+    - [gitCredentialManager.md](doc/backend/record/gitCredentialManager.md)
     - [gitLineEnding.md](doc/backend/record/gitLineEnding.md)
     - [jenkinsEmptyPage.md](doc/backend/record/jenkinsEmptyPage.md)
     - [refuseConnectToCentos.md](doc/backend/record/refuseConnectToCentos.md)
@@ -40,5 +40,9 @@
     - [optionsRequest.md](doc/frontend/record/optionsRequest.md)
     - [UIFrameWork.md](doc/frontend/record/UIFrameWork.md)
   - sourcefile-reading
+    - [react-redux.md](doc/frontend/sourcefile-reading/react-redux.md)
+    - [redux-promise.md](doc/frontend/sourcefile-reading/redux-promise.md)
+    - [redux-thunk.md](doc/frontend/sourcefile-reading/redux-thunk.md)
     - [redux.md](doc/frontend/sourcefile-reading/redux.md)
     - [roadhog.md](doc/frontend/sourcefile-reading/roadhog.md)
+    - [roadhog2.md](doc/frontend/sourcefile-reading/roadhog2.md)
