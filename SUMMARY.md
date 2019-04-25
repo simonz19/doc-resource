@@ -19,6 +19,7 @@
     - [testEnv.md](doc/backend/manual/testEnv.md)
     - [vps.md](doc/backend/manual/vps.md)
   - record
+    - [diff-between-git-add.md](doc/backend/record/diff-between-git-add.md)
     - [front-back-render.md](doc/backend/record/front-back-render.md)
     - [gitCredentialManager.md](doc/backend/record/gitCredentialManager.md)
     - [gitLineEnding.md](doc/backend/record/gitLineEnding.md)
@@ -35,6 +36,7 @@
   - record
     - [babelplugins.md](doc/frontend/record/babelplugins.md)
     - [browserNewTab.md](doc/frontend/record/browserNewTab.md)
+    - [importRequireInWebpack.md](doc/frontend/record/importRequireInWebpack.md)
     - [mayUsefullTech.md](doc/frontend/record/mayUsefullTech.md)
     - [newProjectTodo.md](doc/frontend/record/newProjectTodo.md)
     - [optionsRequest.md](doc/frontend/record/optionsRequest.md)
