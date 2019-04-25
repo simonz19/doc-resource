@@ -37,3 +37,7 @@ Headless Chrome Node API
 ## [deno](https://github.com/denoland/deno)
 
 A secure JavaScript/TypeScript runtime built with V8, Rust, and Tokio. aim to replace nodejs.
+
+## [parcel](https://github.com/parcel-bundler/parcel)
+
+like webpack but zero configuration with extremely fast speed.

@@ -68,3 +68,17 @@
 ## 2019-03-15
 
 - it has been troubing me for quite some while
+
+## 2019-04-11
+
+- it is not uncommon to see
+
+## 2019-04-18
+
+- we are still no nearer to discovering the location of the key
+- hope you doing well today
+- this is not acceptable
+
+## 2019-04-25
+
+- In other words, console.dir is the way to see all the properties of a specified JavaScript object in console by which the developer can easily get the properties of the object.

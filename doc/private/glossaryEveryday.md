@@ -63,11 +63,46 @@
 - advanced
 - senior
 
-## 2018-03-14
+## 2019-03-14
 
 - shallow
 - investigation
 
-## 2018-03-18
+## 2019-03-18
 
 - exhausted
+
+## 2019-03-22
+
+- invert vi
+- inverse adj
+- revert vi
+- reverse adj
+
+## 2019-04-08
+
+- distinct
+- dual
+- bear
+
+## 2019-04-10
+
+- algorithm
+- delimiter
+- isolation
+
+## 2019-04-10
+
+- coalesce
+
+## 2019-04-23
+
+- regardless
+
+## 2019-04-24
+
+- separate
+- positive
+- passive
+- negative
+- trick
