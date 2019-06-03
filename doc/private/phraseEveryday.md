@@ -82,3 +82,26 @@
 ## 2019-04-25
 
 - In other words, console.dir is the way to see all the properties of a specified JavaScript object in console by which the developer can easily get the properties of the object.
+
+## 2019-04-28
+
+- result in
+
+## 2019-05-07
+
+- in advance of
+
+## 2019-05-20
+
+- no jenkins restart is enven required
+
+## 2019-05-22
+
+- i sort of started the independent thing
+- im with you
+- an advance
+
+## 2019-06-03
+
+- break a leg
+- a lot of traffic on this road

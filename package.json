@@ -2,11 +2,13 @@
   "name": "doc-resource",
   "version": "1.0.0",
   "scripts": {
-    "gen": "node generate"
+    "gen": "gitbooks gen"
   },
   "author": "zxy",
   "private": true,
   "devDependencies": {
+    "gitbook-summary-generator": "^1.0.0",
+    "gitbook-plugin-expandable-chapters": "^0.2.0",
     "prettier": "^1.16.4",
     "recursive-readdir": "^2.2.2"
   },

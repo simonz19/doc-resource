@@ -66,7 +66,7 @@
 ## 2019-03-14
 
 - shallow
-- investigation
+- investigate
 
 ## 2019-03-18
 
@@ -106,3 +106,59 @@
 - passive
 - negative
 - trick
+
+## 2019-04-28
+
+- reveal
+- simultaneously
+- prolong
+- approach
+- silly
+- efficient
+- assessment
+
+## 2019-05-07
+
+- persistence
+- tap
+- sink
+
+## 2019-05-09
+
+- maintain
+- evaluate
+- trace
+- automate
+- aspect
+
+## 2019-05-22
+
+- respective
+- directive
+- handy
+- supersede
+- chapter
+- hang out
+- authentication
+- authorization
+- greedy
+
+## 2019-05-29
+
+- sweep
+- plain
+
+## 2019-05-21
+
+- flexible
+- track
+- donate
+- denote
+- evidence
+- persistent
+- consistent
+
+## 2019-06-03
+
+- fundamental
+- valuable
