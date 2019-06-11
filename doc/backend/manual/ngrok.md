@@ -83,7 +83,7 @@ $ cd /usr/local/ngrok/release
 $ ./ngrokd -tlsKey="server.key" -tlsCrt="server.crt" -domain="$NGROK_DOMAIN" -httpAddr=":8081" -httpsAddr=":8082"
 ```
 
-then you will found the reverse proxy is stared on port `4443`.
+then you will find the reverse proxy is stared on port `4443`.
 
 ## client side
 

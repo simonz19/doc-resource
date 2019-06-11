@@ -162,3 +162,36 @@
 
 - fundamental
 - valuable
+- implication
+- implicit
+- guarantee
+- oriented
+- dominate
+- influence
+
+## 2019-06-06
+
+- candidate
+- commercial
+- appreciate
+- appropricate
+- introspect
+- recruitment
+- evidence
+
+## 2019-06-10
+
+- relevant
+- residence
+- consultant
+- specialist
+- correspondence address
+
+## 2019-06-11
+
+- democracy
+- offense
+- extradition
+- period
+- naked
+- tutorials

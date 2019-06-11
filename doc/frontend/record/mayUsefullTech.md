@@ -41,3 +41,11 @@ A secure JavaScript/TypeScript runtime built with V8, Rust, and Tokio. aim to re
 ## [parcel](https://github.com/parcel-bundler/parcel)
 
 like webpack but zero configuration with extremely fast speed.
+
+## [sails](https://sailsjs.com/)
+
+Sails is the most popular MVC framework for Node.js
+
+## [eggjs](https://eggjs.org/)
+
+build better enterprise frameworks and apps with Node.js & Koa. sort of like sails
