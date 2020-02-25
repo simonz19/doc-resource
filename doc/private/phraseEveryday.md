@@ -98,10 +98,106 @@
 ## 2019-05-22
 
 - i sort of started the independent thing
-- im with you
+- i'm with you
 - an advance
 
 ## 2019-06-03
 
-- break a leg
+- break a leg = good luck
 - a lot of traffic on this road
+
+## 2019-06-12
+
+- public official
+- not applicable
+- reveal password
+
+## 2019-06-29
+
+- would like a word
+- it will worth your while
+- how long has this been going on
+- you read me?
+- go ahead
+- be on alert for
+
+## 2019-07-10
+
+- run out of air
+- you don't deserve that name
+- stand by my statement
+- I mean it
+- don't cause a scene
+
+## 2019-07-13
+
+- on-going process
+- as of day
+- under the weather
+
+## 2019-11-18
+
+- I stand corrected
+- are you aware of that?
+- appreciate your time
+- AKA - also known as
+- on suspicion of
+- in terms of
+- what's the bottom line
+
+## 2019-11-19
+
+- out of my league
+- ache in the stomach
+- back me up
+- free you from doing sth
+- I am realy in to it
+- I am not realy awake
+- at the very most
+- pick up the pieces
+
+## 2019-11-21
+
+- looking forward to hear from you
+- mind your own business
+
+## 2019-11-23
+
+- where are you gonna do for dinner
+- eat out
+- go out to eat
+
+## 2019-11-24
+
+- I did not mean it in bad way
+
+## 2019-11-25
+
+- in many forms
+
+## 2019-11-27
+
+- as shown here
+
+## 2019-11-29
+
+- I got your back
+
+## 2019-11-30
+
+- pergectly sized for picking up
+- easily sticks to little fingers
+
+## 2019-12-3
+
+- is suitable for
+- make an appointment
+- so-called
+
+## 2019-12-11
+
+- get rid of
+
+## 2019-12-25
+
+- season's greeting

@@ -90,3 +90,20 @@ A logger for just about everything.
 ## [ngrok](https://github.com/inconshreveable/ngrok)
 
 ngrok is a reverse proxy that creates a secure tunnel from a public endpoint to a locally running web service.
+
+## [iconv](https://www.npmjs.com/package/iconv)
+
+iconv can help to extends the types of encoding in nodejs.
+
+below are the types supported by native nodejs:
+
+- ascii
+- utf8
+- utf16le
+- ucs2
+- base64
+- latin1
+- binary
+- hex
+
+when use iconv, there can be more typs not only those listed above.

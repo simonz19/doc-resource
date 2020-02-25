@@ -195,3 +195,77 @@
 - period
 - naked
 - tutorials
+
+## 2019-06-12
+
+- applicable
+- emerge
+- resist
+- temptation
+
+## 2019-06-19
+
+- advantage
+- disadvantage
+- resident
+- wizard
+- proceed
+- exchange
+- compatible
+- tension
+- slash
+
+## 2019-06-20
+
+- alma mater
+- correnspond
+- screening
+- side effect
+
+## 2019-06-29
+
+- central
+- centralized
+- complicate
+- duplicate
+- extcetera
+- thin
+- thick
+
+## 2019-09-08
+
+- regret
+- scene
+- spread
+- resignation
+- debit
+- concept
+- academic
+- participant
+
+## 2019-09-09
+
+- actuator
+- recommendation
+- seal
+- compilation
+- mercy
+- deserve
+- basically
+
+## 2019-07-10
+
+- insurance
+- criteria
+- confluence
+- enquire
+
+## 2019-07-12
+
+- justification
+- provision
+- beneficiary
+- contractor
+- prove
+- proof
+- outstanding
