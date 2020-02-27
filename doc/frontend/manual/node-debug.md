@@ -54,6 +54,18 @@ Start debugging of this configutaion can attach debugger to current running node
 
 ## Chrome
 
+Chrome is another useful detector client with the capability of Chromium core.
+
+Steps of debugging using Chrome:
+
+1. `node --inspect script.js`, the default listener port will be 9229
+2. open `chrome://inspect` on chrome browser
+3. click `open dedicated DevTools for Node` to configure `Connection`
+4. add connection with the inspect listener port.
+
+Like the VSCode, you can add break point for debugging in **Sources** pannel,
+search file name by shortcut `ctrl+p` to find the source mapped file.
+
 ## node-inspect
 
 A CLI debugger supported by Node.js Foundation.
